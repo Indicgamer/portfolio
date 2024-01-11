@@ -19,13 +19,13 @@ export const Navbar = () => {
           className={`${click? ` bg-pink-600 flex flex-col justify-start gap-8 absolute top-[76px]   py-5 px-8 w-full  mx-[-32px]  `:`max-md:hidden justify-center items-center`} flex  gap-5 text-lg font-palanquin leading-none text-pink-100 `}
         >
           {/* hovering effect: hover:text-pink-200 hover:shadow-md hover:font-semibold */}
-          <a href="#about-me" className="text-lg hover:scale-110 font-palanquin leading-none text-pink-100 ">
+          <a href="#about-me" className="text-lg hover:scale-110 font-palanquin leading-none text-pink-100" onClick={handleClick}>
             <li>About me</li>
           </a>
-          <a href="#projects" className="text-lg hover:scale-110 font-palaquin leading-none text-pink-100  ">
+          <a href="#projects" className="text-lg hover:scale-110 font-palaquin leading-none text-pink-100 " onClick={handleClick}>
             <li>My Work</li>
           </a>
-          <a href="#contact-me" className="text-lg hover:scale-110  font-palaquin leading-none text-pink-100  ">
+          <a href="#contact-me" className="text-lg hover:scale-110  font-palaquin leading-none text-pink-100 " onClick={handleClick}>
             <li>Contact me</li>
           </a>
         </ul>

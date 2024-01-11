@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Italianno&family=Montserrat&family=Palanquin&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .max-container {
+      max-width: 1440px;  
+    }
+    .font-montserrat{
+      font-family: 'Montserrat', sans-serif;
+    }
+    .font-palanquin{
+      font-family: 'Palanquin', sans-serif;
+    }
+    .font-cursive{
+      font-family: 'Italianno', cursive;
+    }
+}
